@@ -3,7 +3,7 @@ import ChatUser from "./ChatUser";
 import Messages from "./Messages";
 import Typesend from "./Typesend";
 import useConversation from "../../zustand/useConversation.js";
-import { useAuth } from "../../context/AuthProvider.jsx";
+import { useAuth } from "../../context/Authprovider.jsx";
 import { CiMenuFries } from "react-icons/ci";
 
 function Right() {
